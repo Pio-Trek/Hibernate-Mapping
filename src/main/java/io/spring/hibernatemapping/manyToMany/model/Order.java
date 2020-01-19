@@ -22,6 +22,7 @@ public class Order {
     @EqualsAndHashCode.Include
     private Long id;
 
+    @Column(name = "order_date")
     @NonNull
     private LocalDateTime orderDate;
 

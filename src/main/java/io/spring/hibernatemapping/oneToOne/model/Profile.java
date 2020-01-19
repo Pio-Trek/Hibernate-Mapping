@@ -28,6 +28,7 @@ public class Profile {
     @NonNull
     private String country;
 
+    @Column(name = "post_code")
     @NonNull
     private String postCode;
 
