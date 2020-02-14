@@ -1,7 +1,7 @@
 package io.spring.hibernatemapping.manyToMany;
 
-import io.spring.hibernatemapping.manyToMany.model.Item;
-import io.spring.hibernatemapping.manyToMany.model.Order;
+import io.spring.hibernatemapping.manyToMany.domain.Item;
+import io.spring.hibernatemapping.manyToMany.domain.Order;
 import io.spring.hibernatemapping.manyToMany.repository.ItemRepository;
 import io.spring.hibernatemapping.manyToMany.repository.OrderRepository;
 import lombok.extern.slf4j.Slf4j;

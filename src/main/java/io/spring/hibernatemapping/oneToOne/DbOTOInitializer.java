@@ -1,7 +1,7 @@
 package io.spring.hibernatemapping.oneToOne;
 
-import io.spring.hibernatemapping.oneToOne.model.Customer;
-import io.spring.hibernatemapping.oneToOne.model.Profile;
+import io.spring.hibernatemapping.oneToOne.domain.Customer;
+import io.spring.hibernatemapping.oneToOne.domain.Profile;
 import io.spring.hibernatemapping.oneToOne.repository.CustomerRepository;
 import io.spring.hibernatemapping.oneToOne.repository.ProfileRepository;
 import lombok.extern.slf4j.Slf4j;

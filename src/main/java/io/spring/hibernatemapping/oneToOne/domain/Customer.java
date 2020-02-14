@@ -1,4 +1,4 @@
-package io.spring.hibernatemapping.oneToMany.model;
+package io.spring.hibernatemapping.oneToOne.domain;
 
 import lombok.*;
 
@@ -11,25 +11,23 @@ import javax.persistence.*;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class Article {
+public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
 
-    // For bidirectional mapping
-/*    @ManyToOne
     @NonNull
-    private Author author;*/
-
-    // For unidirectional mapping
-    @ManyToOne
-    @JoinColumn(name = "author_id")
-    @NonNull
-    private Author author;
+    private String firstName;
 
     @NonNull
-    private String article;
+    private String lastName;
+
+    @NonNull
+    private String email;
+
+    @OneToOne
+    private Profile profile;
 
 }

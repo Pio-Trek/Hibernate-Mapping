@@ -1,4 +1,4 @@
-package io.spring.hibernatemapping.oneToOne.model;
+package io.spring.hibernatemapping.oneToOne.domain;
 
 import lombok.*;
 
@@ -28,7 +28,6 @@ public class Profile {
     @NonNull
     private String country;
 
-    @Column(name = "post_code")
     @NonNull
     private String postCode;
 

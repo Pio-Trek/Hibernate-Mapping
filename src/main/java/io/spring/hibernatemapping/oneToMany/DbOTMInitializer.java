@@ -1,7 +1,7 @@
 package io.spring.hibernatemapping.oneToMany;
 
-import io.spring.hibernatemapping.oneToMany.model.Article;
-import io.spring.hibernatemapping.oneToMany.model.Author;
+import io.spring.hibernatemapping.oneToMany.domain.Article;
+import io.spring.hibernatemapping.oneToMany.domain.Author;
 import io.spring.hibernatemapping.oneToMany.repository.ArticleRepository;
 import io.spring.hibernatemapping.oneToMany.repository.AuthorRepository;
 import lombok.extern.slf4j.Slf4j;

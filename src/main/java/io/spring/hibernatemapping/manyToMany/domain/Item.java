@@ -1,4 +1,4 @@
-package io.spring.hibernatemapping.manyToMany.model;
+package io.spring.hibernatemapping.manyToMany.domain;
 
 import lombok.*;
 
